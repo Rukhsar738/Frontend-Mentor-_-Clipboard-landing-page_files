@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+color: hsl(210, 10%, 33%);
+text-align: center;
+background-color: #fff;
+}
+
+.header, .features, .access, .workflow, .download, .footer
+ {
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: hsl(201, 11%, 66%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn.ios {
+  background-color: hsl(171, 60%, 45%);
+}
+
+.btn.mac {
+  background-color: hsl(233, 95%, 70%);
+}
+
+.feature-container {
+ display: flex;
+  
+
+  align-items: center;
+}
+
+.feature-container img {
+max-width: 100%;
+  margin: 40px 0;
+  position: relative;
+margin-left: 20px;
+}
+
+.feature-texts div {
+  margin-bottom: 30px;
+  
+gap: 30px;
+
+}
+
+.footer {
+  background-color: #f1f1f1;
+
+}
+
+.socials img {
+  margin: 10px;
+ width: 24px;
+
+}
+.logo-icon{
+padding: 20px;
+}
+
+.tools{
+  display: flex;
+  position: relative;
+  margin-left: 140px;
+  padding: 30px;
+  gap: 30px;
+}
+.computer-image{
+  position: relative;
+  margin: left;
+}
